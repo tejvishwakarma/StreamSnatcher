@@ -1,0 +1,200 @@
+[2025-04-04 11:20:14] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 11:20:14] [INFO] User: tejvishwakarma
+[2025-04-04 11:20:14] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 11:20:14] [INFO] Platform detected: bilibili
+[2025-04-04 11:20:14] [INFO] Command: yt-dlp --no-check-certificates --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 11:20:19] [INFO] Return Code: 0
+[2025-04-04 11:20:19] [INFO] Sending successful response
+[2025-04-04 11:20:19] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 11:31:55] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 11:31:55] [INFO] User: tejvishwakarma
+[2025-04-04 11:31:55] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 11:31:55] [INFO] Platform detected: bilibili
+[2025-04-04 11:31:55] [INFO] Command: yt-dlp --no-check-certificates --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 11:31:59] [INFO] Return Code: 0
+[2025-04-04 11:31:59] [INFO] Sending successful response
+[2025-04-04 11:31:59] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 11:33:44] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 11:33:44] [INFO] User: tejvishwakarma
+[2025-04-04 11:33:44] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 11:33:44] [INFO] Platform detected: bilibili
+[2025-04-04 11:33:44] [INFO] Command: yt-dlp --no-check-certificates --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 11:33:48] [INFO] Return Code: 0
+[2025-04-04 11:33:48] [INFO] Sending successful response
+[2025-04-04 11:33:48] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 11:37:18] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 11:37:18] [INFO] User: tejvishwakarma
+[2025-04-04 11:37:18] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 11:37:18] [INFO] Platform detected: bilibili
+[2025-04-04 11:37:18] [INFO] Command: yt-dlp --no-check-certificates --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 11:37:22] [INFO] Return Code: 0
+[2025-04-04 11:37:22] [INFO] Sending successful response
+[2025-04-04 11:37:22] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 11:38:41] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 11:38:41] [INFO] User: tejvishwakarma
+[2025-04-04 11:38:41] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 11:38:41] [INFO] Platform detected: bilibili
+[2025-04-04 11:38:41] [INFO] Command: yt-dlp --no-check-certificates --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 11:38:45] [INFO] Return Code: 0
+[2025-04-04 11:38:45] [INFO] Sending successful response
+[2025-04-04 11:38:45] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 11:38:57] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 11:38:57] [INFO] User: tejvishwakarma
+[2025-04-04 11:38:57] [INFO] URL: https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids
+[2025-04-04 11:38:57] [INFO] Platform detected: youtube
+[2025-04-04 11:38:57] [INFO] Command: yt-dlp  --dump-json "https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids" 2>&1
+[2025-04-04 11:39:02] [INFO] Return Code: 0
+[2025-04-04 11:39:02] [INFO] Sending successful response
+[2025-04-04 11:39:02] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 11:52:52] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 11:52:52] [INFO] User: tejvishwakarma
+[2025-04-04 11:52:52] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 11:52:52] [INFO] Platform detected: bilibili
+[2025-04-04 11:52:52] [INFO] Command: yt-dlp --no-check-certificates --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 11:52:56] [INFO] Return Code: 0
+[2025-04-04 11:52:56] [INFO] Sending successful response
+[2025-04-04 11:52:56] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 11:57:43] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 11:57:43] [INFO] User: tejvishwakarma
+[2025-04-04 11:57:43] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 11:57:43] [INFO] Platform detected: bilibili
+[2025-04-04 11:57:43] [INFO] Command: yt-dlp --no-check-certificates --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 11:57:47] [INFO] Return Code: 0
+[2025-04-04 11:57:47] [INFO] Sending successful response
+[2025-04-04 11:57:47] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 12:06:19] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 12:06:19] [INFO] User: tejvishwakarma
+[2025-04-04 12:06:19] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 12:06:19] [INFO] Platform detected: bilibili
+[2025-04-04 12:06:19] [INFO] Command: yt-dlp --no-check-certificates --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 12:06:23] [INFO] Return Code: 0
+[2025-04-04 12:06:23] [INFO] Sending successful response
+[2025-04-04 12:06:23] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 12:06:40] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 12:06:40] [INFO] User: tejvishwakarma
+[2025-04-04 12:06:40] [INFO] URL: https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids
+[2025-04-04 12:06:40] [INFO] Platform detected: youtube
+[2025-04-04 12:06:40] [INFO] Command: yt-dlp  --dump-json "https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids" 2>&1
+[2025-04-04 12:06:45] [INFO] Return Code: 0
+[2025-04-04 12:06:45] [INFO] Sending successful response
+[2025-04-04 12:06:45] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 12:07:47] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 12:07:47] [INFO] User: tejvishwakarma
+[2025-04-04 12:07:47] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 12:07:47] [INFO] Platform detected: bilibili
+[2025-04-04 12:07:47] [INFO] Command: yt-dlp --no-check-certificates --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 12:07:51] [INFO] Return Code: 0
+[2025-04-04 12:07:51] [INFO] Sending successful response
+[2025-04-04 12:07:51] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 12:10:51] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 12:10:51] [INFO] User: tejvishwakarma
+[2025-04-04 12:10:51] [INFO] URL: https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids
+[2025-04-04 12:10:51] [INFO] Platform detected: youtube
+[2025-04-04 12:10:51] [INFO] Command: yt-dlp  --dump-json "https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids" 2>&1
+[2025-04-04 12:10:56] [INFO] Return Code: 0
+[2025-04-04 12:10:56] [INFO] Sending successful response
+[2025-04-04 12:10:56] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 12:56:05] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 12:56:05] [INFO] User: tejvishwakarma
+[2025-04-04 12:56:05] [INFO] URL: https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids
+[2025-04-04 12:56:05] [ERROR] Error occurred: yt-dlp not found. Please install yt-dlp first.
+[2025-04-04 12:56:05] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 13:04:10] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 13:04:10] [INFO] User: tejvishwakarma
+[2025-04-04 13:04:10] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 13:04:10] [ERROR] Error occurred: yt-dlp not found. Please install yt-dlp first.
+[2025-04-04 13:04:10] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 13:05:42] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 13:05:42] [INFO] User: tejvishwakarma
+[2025-04-04 13:05:42] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 13:05:42] [ERROR] Error occurred: yt-dlp not found. Please install yt-dlp first.
+
+Installation instructions:
+- Windows: Download from https://github.com/yt-dlp/yt-dlp/releases
+- macOS: Run 'brew install yt-dlp'
+- Linux: Run 'sudo apt install yt-dlp' or 'sudo dnf install yt-dlp'
+- Any OS with Python: Run 'python3 -m pip install -U yt-dlp'
+
+[2025-04-04 13:05:42] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 13:20:43] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 13:20:43] [INFO] User: tejvishwakarma
+[2025-04-04 13:20:43] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 13:20:43] [ERROR] Error occurred: yt-dlp not found. Please install yt-dlp first.
+
+Installation instructions:
+- Windows: Download from https://github.com/yt-dlp/yt-dlp/releases
+- macOS: Run 'brew install yt-dlp'
+- Linux: Run 'sudo apt install yt-dlp' or 'sudo dnf install yt-dlp'
+- Any OS with Python: Run 'python3 -m pip install -U yt-dlp'
+
+[2025-04-04 13:20:43] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 13:35:28] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 13:35:28] [INFO] User: tejvishwakarma
+[2025-04-04 13:35:28] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 13:35:30] [INFO] Platform detected: bilibili
+[2025-04-04 13:35:30] [INFO] Command: yt-dlp --no-check-certificates --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 13:35:34] [INFO] Return Code: 0
+[2025-04-04 13:35:34] [INFO] Sending successful response
+[2025-04-04 13:35:34] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 13:35:58] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 13:35:58] [INFO] User: tejvishwakarma
+[2025-04-04 13:35:58] [INFO] URL: https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids
+[2025-04-04 13:36:00] [INFO] Platform detected: youtube
+[2025-04-04 13:36:00] [INFO] Command: yt-dlp --no-check-certificates --dump-json "https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids" 2>&1
+[2025-04-04 13:36:05] [INFO] Return Code: 0
+[2025-04-04 13:36:05] [INFO] Sending successful response
+[2025-04-04 13:36:05] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 13:36:24] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 13:36:24] [INFO] User: tejvishwakarma
+[2025-04-04 13:36:24] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 13:36:26] [INFO] Platform detected: bilibili
+[2025-04-04 13:36:26] [INFO] Command: yt-dlp --no-check-certificates --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 13:36:30] [INFO] Return Code: 0
+[2025-04-04 13:36:30] [INFO] Sending successful response
+[2025-04-04 13:36:30] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 13:39:06] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 13:39:06] [INFO] User: tejvishwakarma
+[2025-04-04 13:39:06] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 13:39:07] [INFO] Platform detected: bilibili
+[2025-04-04 13:39:07] [INFO] Command: yt-dlp --no-check-certificates --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 13:39:11] [INFO] Return Code: 0
+[2025-04-04 13:39:11] [INFO] Sending successful response
+[2025-04-04 13:39:11] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 13:45:53] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 13:45:53] [INFO] User: tejvishwakarma
+[2025-04-04 13:45:53] [INFO] URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click
+[2025-04-04 13:45:55] [INFO] Platform detected: bilibili
+[2025-04-04 13:45:55] [INFO] Command: yt-dlp --no-check-certificates --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 13:46:00] [INFO] Return Code: 0
+[2025-04-04 13:46:00] [INFO] Sending successful response
+[2025-04-04 13:46:00] [INFO] ========== Video Info Request End ==========
+
+[2025-04-04 13:46:13] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 13:46:13] [INFO] User: tejvishwakarma
+[2025-04-04 13:46:13] [INFO] URL: https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids
+[2025-04-04 13:46:15] [INFO] Platform detected: youtube
+[2025-04-04 13:46:15] [INFO] Command: yt-dlp --no-check-certificates --dump-json "https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids" 2>&1
+[2025-04-04 13:46:20] [INFO] Return Code: 0
+[2025-04-04 13:46:20] [INFO] Sending successful response
+[2025-04-04 13:46:20] [INFO] ========== Video Info Request End ==========
+

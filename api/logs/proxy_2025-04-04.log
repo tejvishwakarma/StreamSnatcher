@@ -1,0 +1,21 @@
+[2025-04-04 12:06:23] [INFO] === New Request Started ===
+[2025-04-04 12:06:23] [INFO] User: tejvishwakarma
+[2025-04-04 12:06:23] [INFO] Requested URL: http://i1.hdslb.com/bfs/archive/f48db83fdd98c0a9744e1a4f6984974d73ad4cc5.jpg
+[2025-04-04 12:06:23] [INFO] Cache MISS for URL: http://i1.hdslb.com/bfs/archive/f48db83fdd98c0a9744e1a4f6984974d73ad4cc5.jpg
+[2025-04-04 12:06:23] [INFO] Successfully proxied and cached image: http://i1.hdslb.com/bfs/archive/f48db83fdd98c0a9744e1a4f6984974d73ad4cc5.jpg
+[2025-04-04 12:06:23] [INFO] === Request Completed ===
+
+[2025-04-04 12:06:45] [INFO] === New Request Started ===
+[2025-04-04 12:06:45] [INFO] User: tejvishwakarma
+[2025-04-04 12:06:45] [INFO] Requested URL: https://i.ytimg.com/vi_webp/HABmhf_IXVU/maxresdefault.webp
+[2025-04-04 12:06:45] [INFO] Cache MISS for URL: https://i.ytimg.com/vi_webp/HABmhf_IXVU/maxresdefault.webp
+[2025-04-04 12:06:45] [INFO] Successfully proxied and cached image: https://i.ytimg.com/vi_webp/HABmhf_IXVU/maxresdefault.webp
+[2025-04-04 12:06:45] [INFO] === Request Completed ===
+
+[2025-04-04 13:46:20] [INFO] === New Request Started ===
+[2025-04-04 13:46:20] [INFO] User: tejvishwakarma
+[2025-04-04 13:46:20] [INFO] Requested URL: https://i.ytimg.com/vi/HABmhf_IXVU/sddefault.jpg
+[2025-04-04 13:46:20] [INFO] Cache MISS for URL: https://i.ytimg.com/vi/HABmhf_IXVU/sddefault.jpg
+[2025-04-04 13:46:20] [INFO] Successfully proxied and cached image: https://i.ytimg.com/vi/HABmhf_IXVU/sddefault.jpg
+[2025-04-04 13:46:20] [INFO] === Request Completed ===
+

@@ -1,0 +1,115 @@
+/**
+ * StreamSnatcher - Theme Styles
+ * Version: 1.0.0
+ * Created: 2025-04-03 13:54:35
+ * Author: tejvishwakarma
+ */
+
+ :root {
+    /* Primary Brand Colors */
+    --primary: #6366f1;    /* Indigo */
+    --secondary: #8b5cf6;  /* Purple */
+
+    /* Light Theme (Default) */
+    --background: #f9fafb;      /* Almost White */
+    --card-bg: #ffffff;         /* Pure White */
+    --text: #111827;           /* Dark Blue/Gray */
+
+    /* Common Colors */
+    --success: #10b981;        /* Green */
+    --error: #ef4444;          /* Red */
+    --warning: #f59e0b;        /* Yellow */
+    --info: #3b82f6;          /* Blue */
+
+    /* Shadow Colors */
+    --shadow-light: rgba(0, 0, 0, 0.1);
+    --shadow-dark: rgba(0, 0, 0, 0.2);
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--primary), var(--secondary));
+    --gradient-hover: linear-gradient(135deg, var(--secondary), var(--primary));
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+    --background: #111827;      /* Dark Blue/Gray */
+    --card-bg: #1f2937;        /* Slightly lighter Dark Blue/Gray */
+    --text: #f9fafb;           /* Almost White */
+    
+    /* Adjusted Shadow Colors for Dark Theme */
+    --shadow-light: rgba(0, 0, 0, 0.3);
+    --shadow-dark: rgba(0, 0, 0, 0.4);
+}
+
+/* Selection Color */
+::selection {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary);
+}
+
+/* Focus Outline */
+:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+}
+
+/* Placeholder Text Color */
+::placeholder {
+    color: var(--text);
+    opacity: 0.5;
+}
+
+/* Disabled State Colors */
+[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Progress States */
+.progress-success {
+    background: var(--success) !important;
+}
+
+.progress-error {
+    background: var(--error) !important;
+}
+
+/* Alert Colors */
+.alert-success {
+    background-color: var(--success);
+    color: white;
+}
+
+.alert-error {
+    background-color: var(--error);
+    color: white;
+}
+
+.alert-warning {
+    background-color: var(--warning);
+    color: white;
+}
+
+.alert-info {
+    background-color: var(--info);
+    color: white;
+}

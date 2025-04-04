@@ -1,0 +1,31 @@
+# Enable PHP execution
+AddHandler application/x-httpd-php .php
+
+# Set default index files
+DirectoryIndex index.php index.html
+
+# Enable rewrite engine
+RewriteEngine On
+RewriteBase /StreamSnatcher/
+
+# Ensure PHP files are executed
+<Files *.php>
+    SetHandler application/x-httpd-php
+</Files>
+
+# Force HTTPS (uncomment if using SSL)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Set security headers
+Header set X-Content-Type-Options "nosniff"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set X-XSS-Protection "1; mode=block"
+Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+# Allow CORS for API
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type"
+</IfModule>

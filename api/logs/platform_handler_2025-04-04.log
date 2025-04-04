@@ -1,0 +1,64 @@
+[2025-04-04 12:56:05] [INFO] [tejvishwakarma] Detected platform: youtube
+[2025-04-04 13:04:10] [INFO] [tejvishwakarma] Detected platform: bilibili
+[2025-04-04 13:05:42] [INFO] [tejvishwakarma] Detected platform: bilibili
+[2025-04-04 13:05:42] [ERROR] [tejvishwakarma] yt-dlp not found. Please install yt-dlp first.
+
+Installation instructions:
+- Windows: Download from https://github.com/yt-dlp/yt-dlp/releases
+- macOS: Run 'brew install yt-dlp'
+- Linux: Run 'sudo apt install yt-dlp' or 'sudo dnf install yt-dlp'
+- Any OS with Python: Run 'python3 -m pip install -U yt-dlp'
+
+[2025-04-04 13:20:43] [INFO] [tejvishwakarma] Detected platform: bilibili
+[2025-04-04 13:20:43] [ERROR] [tejvishwakarma] yt-dlp not found. Please install yt-dlp first.
+
+Installation instructions:
+- Windows: Download from https://github.com/yt-dlp/yt-dlp/releases
+- macOS: Run 'brew install yt-dlp'
+- Linux: Run 'sudo apt install yt-dlp' or 'sudo dnf install yt-dlp'
+- Any OS with Python: Run 'python3 -m pip install -U yt-dlp'
+
+[2025-04-04 13:35:28] [INFO] [tejvishwakarma] Detected platform: bilibili
+[2025-04-04 13:35:30] [INFO] [tejvishwakarma] Found yt-dlp at: yt-dlp
+[2025-04-04 13:35:30] [INFO] [tejvishwakarma] Using yt-dlp from: yt-dlp
+[2025-04-04 13:35:30] [WARNING] [tejvishwakarma] aria2c not found. Downloads may be slower. Consider installing aria2c for better performance.
+[2025-04-04 13:35:30] [WARNING] [tejvishwakarma] ffmpeg not found. Some features like format conversion and merging may not work properly.
+[2025-04-04 13:35:30] [INFO] [tejvishwakarma] PlatformHandler initialized for URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click by user: tejvishwakarma
+[2025-04-04 13:35:30] [INFO] [tejvishwakarma] Generated info command: yt-dlp --no-check-certificates --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 13:35:58] [INFO] [tejvishwakarma] Detected platform: youtube
+[2025-04-04 13:36:00] [INFO] [tejvishwakarma] Found yt-dlp at: yt-dlp
+[2025-04-04 13:36:00] [INFO] [tejvishwakarma] Using yt-dlp from: yt-dlp
+[2025-04-04 13:36:00] [WARNING] [tejvishwakarma] aria2c not found. Downloads may be slower. Consider installing aria2c for better performance.
+[2025-04-04 13:36:00] [WARNING] [tejvishwakarma] ffmpeg not found. Some features like format conversion and merging may not work properly.
+[2025-04-04 13:36:00] [INFO] [tejvishwakarma] PlatformHandler initialized for URL: https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids by user: tejvishwakarma
+[2025-04-04 13:36:00] [INFO] [tejvishwakarma] Generated info command: yt-dlp --no-check-certificates --dump-json "https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids" 2>&1
+[2025-04-04 13:36:24] [INFO] [tejvishwakarma] Detected platform: bilibili
+[2025-04-04 13:36:26] [INFO] [tejvishwakarma] Found yt-dlp at: yt-dlp
+[2025-04-04 13:36:26] [INFO] [tejvishwakarma] Using yt-dlp from: yt-dlp
+[2025-04-04 13:36:26] [WARNING] [tejvishwakarma] aria2c not found. Downloads may be slower. Consider installing aria2c for better performance.
+[2025-04-04 13:36:26] [WARNING] [tejvishwakarma] ffmpeg not found. Some features like format conversion and merging may not work properly.
+[2025-04-04 13:36:26] [INFO] [tejvishwakarma] PlatformHandler initialized for URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click by user: tejvishwakarma
+[2025-04-04 13:36:26] [INFO] [tejvishwakarma] Generated info command: yt-dlp --no-check-certificates --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 13:39:06] [INFO] [tejvishwakarma] Detected platform: bilibili
+[2025-04-04 13:39:07] [INFO] [tejvishwakarma] Found yt-dlp at: yt-dlp
+[2025-04-04 13:39:07] [INFO] [tejvishwakarma] Using yt-dlp from: yt-dlp
+[2025-04-04 13:39:07] [WARNING] [tejvishwakarma] aria2c not found. Downloads may be slower. Consider installing aria2c for better performance.
+[2025-04-04 13:39:07] [WARNING] [tejvishwakarma] ffmpeg not found. Some features like format conversion and merging may not work properly.
+[2025-04-04 13:39:07] [INFO] [tejvishwakarma] PlatformHandler initialized for URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click by user: tejvishwakarma
+[2025-04-04 13:39:07] [INFO] [tejvishwakarma] Generated info command: yt-dlp --no-check-certificates --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 13:45:53] [INFO] [tejvishwakarma] Detected platform: bilibili
+[2025-04-04 13:45:55] [INFO] [tejvishwakarma] Found yt-dlp at: yt-dlp
+[2025-04-04 13:45:55] [INFO] [tejvishwakarma] Using yt-dlp from: yt-dlp
+[2025-04-04 13:45:55] [INFO] [tejvishwakarma] Using yt-dlp from: yt-dlp
+[2025-04-04 13:45:55] [WARNING] [tejvishwakarma] aria2c not found. Downloads may be slower. Consider installing aria2c for better performance.
+[2025-04-04 13:45:55] [WARNING] [tejvishwakarma] ffmpeg not found. Some features like format conversion and merging may not work properly.
+[2025-04-04 13:45:55] [INFO] [tejvishwakarma] PlatformHandler initialized for URL: https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click by user: tejvishwakarma
+[2025-04-04 13:45:55] [INFO] [tejvishwakarma] Generated info command: yt-dlp --no-check-certificates --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" --dump-json "https://www.bilibili.com/video/BV1oW411n71t/?spm_id_from=333.337.search-card.all.click" 2>&1
+[2025-04-04 13:46:13] [INFO] [tejvishwakarma] Detected platform: youtube
+[2025-04-04 13:46:15] [INFO] [tejvishwakarma] Found yt-dlp at: yt-dlp
+[2025-04-04 13:46:15] [INFO] [tejvishwakarma] Using yt-dlp from: yt-dlp
+[2025-04-04 13:46:15] [INFO] [tejvishwakarma] Using yt-dlp from: yt-dlp
+[2025-04-04 13:46:15] [WARNING] [tejvishwakarma] aria2c not found. Downloads may be slower. Consider installing aria2c for better performance.
+[2025-04-04 13:46:15] [WARNING] [tejvishwakarma] ffmpeg not found. Some features like format conversion and merging may not work properly.
+[2025-04-04 13:46:15] [INFO] [tejvishwakarma] PlatformHandler initialized for URL: https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids by user: tejvishwakarma
+[2025-04-04 13:46:15] [INFO] [tejvishwakarma] Generated info command: yt-dlp --no-check-certificates --dump-json "https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids" 2>&1
