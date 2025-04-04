@@ -8,7 +8,7 @@
 class ThemeHandler {
     constructor() {
         this.themeToggle = document.getElementById('themeToggle');
-        this.theme = localStorage.getItem('theme') || 'light';
+        this.theme = localStorage.getItem('theme') || 'dark'; // Set default to dark
         
         // Initialize theme
         this.setTheme(this.theme);

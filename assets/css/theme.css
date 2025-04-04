@@ -10,28 +10,7 @@
     --primary: #6366f1;    /* Indigo */
     --secondary: #8b5cf6;  /* Purple */
 
-    /* Light Theme (Default) */
-    --background: #f9fafb;      /* Almost White */
-    --card-bg: #ffffff;         /* Pure White */
-    --text: #111827;           /* Dark Blue/Gray */
-
-    /* Common Colors */
-    --success: #10b981;        /* Green */
-    --error: #ef4444;          /* Red */
-    --warning: #f59e0b;        /* Yellow */
-    --info: #3b82f6;          /* Blue */
-
-    /* Shadow Colors */
-    --shadow-light: rgba(0, 0, 0, 0.1);
-    --shadow-dark: rgba(0, 0, 0, 0.2);
-
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, var(--primary), var(--secondary));
-    --gradient-hover: linear-gradient(135deg, var(--secondary), var(--primary));
-}
-
-/* Dark Theme */
-[data-theme="dark"] {
+    /* Dark Theme (Default) */
     --background: #111827;      /* Dark Blue/Gray */
     --card-bg: #1f2937;        /* Slightly lighter Dark Blue/Gray */
     --text: #f9fafb;           /* Almost White */
@@ -39,6 +18,27 @@
     /* Adjusted Shadow Colors for Dark Theme */
     --shadow-light: rgba(0, 0, 0, 0.3);
     --shadow-dark: rgba(0, 0, 0, 0.4);
+
+    /* Common Colors */
+    --success: #10b981;        /* Green */
+    --error: #ef4444;          /* Red */
+    --warning: #f59e0b;        /* Yellow */
+    --info: #3b82f6;          /* Blue */
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--primary), var(--secondary));
+    --gradient-hover: linear-gradient(135deg, var(--secondary), var(--primary));
+}
+
+/* Light Theme */
+[data-theme="light"] {
+    --background: #f9fafb;      /* Almost White */
+    --card-bg: #ffffff;         /* Pure White */
+    --text: #111827;           /* Dark Blue/Gray */
+    
+    /* Shadow Colors for Light Theme */
+    --shadow-light: rgba(0, 0, 0, 0.1);
+    --shadow-dark: rgba(0, 0, 0, 0.2);
 }
 
 /* Selection Color */

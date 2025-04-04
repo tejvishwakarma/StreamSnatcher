@@ -62,3 +62,11 @@ Installation instructions:
 [2025-04-04 13:46:15] [WARNING] [tejvishwakarma] ffmpeg not found. Some features like format conversion and merging may not work properly.
 [2025-04-04 13:46:15] [INFO] [tejvishwakarma] PlatformHandler initialized for URL: https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids by user: tejvishwakarma
 [2025-04-04 13:46:15] [INFO] [tejvishwakarma] Generated info command: yt-dlp --no-check-certificates --dump-json "https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids" 2>&1
+[2025-04-04 14:28:24] [INFO] [tejvishwakarma] Detected platform: youtube
+[2025-04-04 14:28:26] [INFO] [tejvishwakarma] Found yt-dlp at: yt-dlp
+[2025-04-04 14:28:26] [INFO] [tejvishwakarma] Using yt-dlp from: yt-dlp
+[2025-04-04 14:28:26] [INFO] [tejvishwakarma] Using yt-dlp from: yt-dlp
+[2025-04-04 14:28:26] [WARNING] [tejvishwakarma] aria2c not found. Downloads may be slower. Consider installing aria2c for better performance.
+[2025-04-04 14:28:26] [WARNING] [tejvishwakarma] ffmpeg not found. Some features like format conversion and merging may not work properly.
+[2025-04-04 14:28:26] [INFO] [tejvishwakarma] PlatformHandler initialized for URL: https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids by user: tejvishwakarma
+[2025-04-04 14:28:26] [INFO] [tejvishwakarma] Generated info command: yt-dlp --no-check-certificates --dump-json "https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids" 2>&1

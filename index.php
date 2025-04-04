@@ -32,7 +32,7 @@ require_once 'includes/config.php';
                    script-src 'self' 'unsafe-inline' 'unsafe-eval';
                    style-src 'self' 'unsafe-inline';
                    font-src 'self' data:;">
-                   <meta http-equiv="Content-Security-Policy" content="img-src 'self' data: blob: https: http:">
+    <meta http-equiv="Content-Security-Policy" content="img-src 'self' data: blob: https: http:">
     <!-- Local Font Awesome CSS -->
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 
@@ -87,13 +87,25 @@ require_once 'includes/config.php';
         </button>
     </div>
 
-    <main class="container">
-        <div class="logo-container">
-            <img src="assets/img/logo-dark.png" alt="StreamSnatcher Logo" class="logo">
+    <!-- New Header with Navigation -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo-container">
+                <img src="assets/img/logo-dark-2.png" alt="StreamSnatcher Logo" class="logo dark-logo">
+                <img src="assets/img/logo-dark.png" alt="StreamSnatcher Logo" class="logo light-logo">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.php" class="active">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-        <!-- <h1>StreamSnatcher</h1> -->
-
+    <main class="container">
         <div class="card">
             <form id="downloadForm" class="download-form">
                 <div class="input-group">
@@ -103,26 +115,28 @@ require_once 'includes/config.php';
             </form>
 
             <div id="videoInfo" class="video-info hidden">
-                <div class="thumbnail-container">
-                    <img id="thumbnail" src="" alt="Video thumbnail">
-                </div>
-                <div class="info-container">
-                    <h2 id="videoTitle"></h2>
-                    <p id="videoDuration"></p>
+                <div class="video-section">
+                    <div class="thumbnail-container">
+                        <img id="thumbnail" src="" alt="Video thumbnail">
+                    </div>
+                    <div class="info-container">
+                        <h2 id="videoTitle"></h2>
+                        <p id="videoDuration"></p>
+                        <p id="videoSize"></p>
+                    </div>
                     <div class="format-selector">
                         <select id="formatSelect">
                             <option value="">Select quality...</option>
                         </select>
                         <button id="downloadBtn" disabled>Download</button>
                     </div>
+                    <div id="downloadProgress" class="progress-container hidden">
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <p class="progress-text">0%</p>
+                    </div>
                 </div>
-            </div>
-
-            <div id="downloadProgress" class="progress-container hidden">
-                <div class="progress-bar">
-                    <div class="progress"></div>
-                </div>
-                <p class="progress-text">0%</p>
             </div>
         </div>
 
@@ -171,18 +185,235 @@ require_once 'includes/config.php';
                 </div>
             </div>
         </section>
+
+        <!-- FAQs Section -->
+        <section id="faqs" class="faqs-section">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How does StreamSnatcher work?</h3>
+                        <span class="faq-toggle"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>StreamSnatcher works by analyzing the video URL you provide and extracting available download options. When you paste a URL and click "Get Video," our system identifies the source platform, retrieves video information (title, duration, available formats), and presents download options. After selecting your preferred quality, our service processes the download and delivers the file directly to your device.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is StreamSnatcher free to use?</h3>
+                        <span class="faq-toggle"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, StreamSnatcher is completely free to use. We provide all basic downloading features at no cost. There are no hidden fees or charges for downloading videos in standard formats and resolutions.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Which video platforms are supported?</h3>
+                        <span class="faq-toggle"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>StreamSnatcher currently supports downloads from YouTube, Instagram, TikTok, Facebook, Twitter, Vimeo, Twitch, Dailymotion, Reddit, and LinkedIn. We continuously work to add support for more platforms and maintain compatibility as platforms update their systems.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What video qualities and formats can I download?</h3>
+                        <span class="faq-toggle"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>StreamSnatcher offers downloads in various qualities ranging from 144p to 4K (when available from the source). Common formats include MP4, WebM, and audio-only MP3. The available options depend on what the original platform provides. We display all available options when you submit a URL, allowing you to choose based on your preferences and storage constraints.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is it legal to use StreamSnatcher?</h3>
+                        <span class="faq-toggle"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>StreamSnatcher is a tool designed for downloading videos for personal use. The legality depends on the content you're downloading and your jurisdiction's copyright laws. We recommend only downloading content that you have permission to download, including public domain videos, creative commons content, your own content, or content where the creator explicitly allows downloading. Always respect copyright laws and the terms of service of the platforms you're downloading from.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Why isn't my download working?</h3>
+                        <span class="faq-toggle"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>If you're experiencing issues with downloading, here are some common reasons:</p>
+                        <ul>
+                            <li>The video is private or protected content</li>
+                            <li>The URL format is incorrect</li>
+                            <li>The platform has recently updated its structure</li>
+                            <li>Your internet connection is unstable</li>
+                            <li>The video is region-restricted</li>
+                        </ul>
+                        <p>Try refreshing the page, verifying the URL, or contacting us if the issue persists.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you store the videos I download?</h3>
+                        <span class="faq-toggle"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, StreamSnatcher does not store any videos on our servers. We act as an intermediary that processes the download request and delivers the content directly to your device. Once your download is complete, no copies remain on our system. This ensures both your privacy and efficient use of our resources.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I download multiple videos at once?</h3>
+                        <span class="faq-toggle"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Currently, StreamSnatcher processes one video at a time. You'll need to complete each download before starting another. We're exploring bulk download capabilities for future updates to enhance user experience and efficiency.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>Have questions, feedback, or need support? Reach out to us using the form below, and we'll get back to you as soon as possible.</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>support@streamsnatcher.com</p>
+                        </div>
+
+                        <div class="contact-method">
+                            <i class="fas fa-clock"></i>
+                            <h3>Response Time</h3>
+                            <p>Within 24-48 hours</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="report">Report an Issue</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!-- Footer with Navigation -->
     <footer class="footer">
         <div class="footer-content">
+            <div class="footer-nav">
+                <a href="privacy-policy.php">Privacy Policy</a>
+                <span class="footer-divider">|</span>
+                <a href="terms-of-use.php">Terms of Use</a>
+            </div>
             <p>&copy; <?php echo date('Y'); ?> StreamSnatcher. All rights reserved.</p>
-            <p>Created by <?php echo APP_AUTHOR; ?></p>
-            <p>Version <?php echo APP_VERSION; ?></p>
+            <!-- <p>Created by <?php echo APP_AUTHOR; ?></p>
+            <p>Version <?php echo APP_VERSION; ?></p> -->
         </div>
     </footer>
 
     <script src="assets/js/theme.js"></script>
     <script src="assets/js/app.js"></script>
+
+    <!-- FAQ Toggle Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq-question');
+
+            faqItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    const parent = item.parentElement;
+                    parent.classList.toggle('active');
+
+                    const icon = item.querySelector('.faq-toggle i');
+                    icon.classList.toggle('fa-chevron-down');
+                    icon.classList.toggle('fa-chevron-up');
+                });
+            });
+        });
+    </script>
+
+    <!-- Contact Form Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+
+                    // Normally you would send this data to your server
+                    // For demo purposes, we'll just show a success message
+
+                    const formData = new FormData(contactForm);
+                    const name = formData.get('name');
+
+                    // Create success alert
+                    const alert = document.createElement('div');
+                    alert.className = 'alert alert-success';
+                    alert.innerHTML = `
+                        <div>
+                            <strong>Message Sent!</strong> Thank you, ${name}. We'll be in touch soon.
+                        </div>
+                        <button type="button" class="close-alert" onclick="this.parentElement.remove()">&times;</button>
+                    `;
+
+                    // Insert alert before the form
+                    contactForm.parentElement.insertBefore(alert, contactForm);
+
+                    // Reset form
+                    contactForm.reset();
+
+                    // Remove alert after 5 seconds
+                    setTimeout(() => {
+                        if (alert.parentElement) {
+                            alert.remove();
+                        }
+                    }, 5000);
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>

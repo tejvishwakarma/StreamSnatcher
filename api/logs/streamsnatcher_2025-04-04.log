@@ -198,3 +198,12 @@ Installation instructions:
 [2025-04-04 13:46:20] [INFO] Sending successful response
 [2025-04-04 13:46:20] [INFO] ========== Video Info Request End ==========
 
+[2025-04-04 14:28:24] [INFO] ========== Video Info Request Start ==========
+[2025-04-04 14:28:24] [INFO] User: tejvishwakarma
+[2025-04-04 14:28:24] [INFO] URL: https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids
+[2025-04-04 14:28:26] [INFO] Platform detected: youtube
+[2025-04-04 14:28:26] [INFO] Command: yt-dlp --no-check-certificates --dump-json "https://www.youtube.com/watch?v=HABmhf_IXVU&ab_channel=Pids" 2>&1
+[2025-04-04 14:28:31] [INFO] Return Code: 0
+[2025-04-04 14:28:31] [INFO] Sending successful response
+[2025-04-04 14:28:31] [INFO] ========== Video Info Request End ==========
+
